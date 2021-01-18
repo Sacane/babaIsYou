@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="baba" default="compile" basedir=".">
+    <property name="sources" location="src"/>
+    <property name="classes" location="classes"/>
+    <property name="classpath" location ="lib/zen5.jar"/>
+    <property name="doc" location ="docs/doc"/>
+    <fileset dir="src" includes="**/*.java"/>
+
+    <target name="init">
+        <mkdir dir="${classes}"/>
+    </target>
+    <!-- To avoid a "includeantruntime was not set" warning -->
+    <presetdef name="javac">
+        <javac includeantruntime="false" />
+    </presetdef>
+    <target name="compile" depends="init">
+        <mkdir dir="${classes}"/>
+        <javac srcdir="${sources}" destdir="${classes}">
+            <classpath>
+                <pathelement path="${classpath}"/>
+            </classpath>
+        </javac>
+        <unjar src="${classpath}" dest="${classes}"/>
+    </target>
+    <target name="clean" description="clean up">
+        <delete dir="${classes}"/>
+        <delete dir="${doc}"/>
+        <mkdir dir ="${classes}"/>
+        <mkdir dir="${doc}"/>
+    </target>
+    <target name="javadoc">
+        <mkdir dir="${doc}"/>
+        <javadoc sourcepath="src"
+                 destdir="${doc}" >
+            <classpath>
+                <pathelement path="${classpath}"/>
+            </classpath>
+        </javadoc>
+    </target>
+    <target name="jar" depends="compile">
+        <jar destfile="baba.jar" manifest="META-INF/MANIFEST.MF" basedir="${classes}"/>
+    </target>
+    <target name="run" description="Run the jar file" depends="jar" >
+        <java classname="main.Display" fork="true">
+            <classpath>
+                <pathelement location="lib/zen5.jar"/>
+            </classpath>
+        </java>
+    </target>
+</project>
+
