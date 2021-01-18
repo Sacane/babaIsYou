@@ -1,0 +1,23 @@
+size w24h14
+
+RockText x0y0
+SkullText x0y2
+FlagText x0y4
+
+Is x1y0 x1y2 x1y4 x8y11 x13y9
+
+Stop x2y0 x14y9
+Defeat x2y2
+Win x2y4
+
+Rock x4y0 x4y1 x4y2 x4y3 x4y4 x4y5 x4y6 x3y6 x2y6 x1y6 x0y6
+
+Wall x6y4 x6y5 x6y6 x6y7 x6y8 x7y4 x7y8 x8y4 x8y8 x9y4 x9y8 x10y4 x10y8 x10y5 x10y7 x10y3 x10y9 x10y2 x10y10 x10y1 x10y11 x11y1 x11y11 x12y11 x13y1 x13y11 x14y1 x14y11 x15y1 x15y11 x15y2 x15y4 x15y5 x15y6 x15y8 x15y9 x15y10 x14y6 x13y6 x16y1 x16y5 x17y1 x17y5 x18y1 x18y5 x19y1 x19y5 x19y2 x19y4 x19y3
+
+Baba x8y6
+
+BabaText x8y10
+You x8y12
+WallText x12y9
+Flag x17y3
+Skull x12y0 x12y1 x12y2 x12y3 x12y4 x12y5 x12y6 x12y7 x13y7 x14y7 x15y7 x16y7 x17y7 x18y7 x19y7 x20y7 x21y7 x22y7 x23y7

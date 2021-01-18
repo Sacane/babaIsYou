@@ -1,0 +1,17 @@
+size w33h15
+Baba x12y7
+Wall x11y5 x12y5 x13y5 x14y5 x15y5 x16y5 x17y5 x18y5 x19y5 x20y5 x21y5 x11y9 x12y9 x13y9 x14y9 x15y9 x16y9 x17y9 x18y9 x19y9 x20y9 x21y9
+Rock x16y6 x16y7 x16y8
+Flag x20y7
+Is x12y3 x20y3 x12y11 x20y11
+You x13y3
+Win x21y3
+Stop x13y11
+Push x21y11
+BabaText x11y3
+WallText x11y11
+FlagText x19y3
+RockText x19y11
+
+
+

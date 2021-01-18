@@ -1,0 +1,16 @@
+size w24h14
+
+Is x3y5 x15y6 x1y1 x1y0
+
+Rock x6y8 x6y9 x6y10
+RockText x2y5
+FlagText x0y0
+Flag x18y9
+SkullText x15y5
+Skull x3y9 x4y9 x5y9 x7y9 x8y9 x9y9 x13y3 x14y3 x15y3 x16y3 x17y3 x18y3 x19y3 x20y3 x21y3 x13y11 x14y11 x15y11 x16y11 x17y11 x18y11 x19y11 x20y11 x21y11 x13y4 x13y5 x13y6 x13y7 x13y8 x13y10 x21y4 x21y5 x21y6 x21y7 x21y8 x13y9 x21y10 x3y10 x3y11 x3y12 x3y13 x9y10 x9y11 x9y12 x9y13 x5y7 x5y8 x7y7 x7y8 x21y9
+BabaText x0y1
+Baba x6y12
+Push x4y5
+Win x2y0
+You x2y1
+Defeat x15y7

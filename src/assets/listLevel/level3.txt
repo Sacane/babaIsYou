@@ -1,0 +1,11 @@
+size w23h18
+Is x6y13 x11y13 x11y4
+
+FlagText x11y12
+Flag x5y6 x6y6 x7y6 x8y6 x10y2 x11y2 x12y2 x13y2 x14y2 x15y2 x10y16 x11y16 x12y16 x13y16 x6y10 x7y10 x12y10 x15y10 x8y10 x10y10 x11y10 x13y10 x14y10 x13y15 x14y15 x15y15 x16y2 x16y3 x16y4 x16y5 x16y6 x16y7 x16y8 x16y9 x16y10 x16y11 x16y12 16y13 x16y14 x16y15 x5y7 x5y8 x5y9 x5y10 x9y2 x9y3 x9y4 x9y5 x9y6 x9y10 x9y11 x9y12 x9y13 x9y14 x9y15 x9y16
+WallText x6y12
+Wall x14y13
+You x6y14
+Win x14y6
+Stop x11y14
+BabaText x7y8

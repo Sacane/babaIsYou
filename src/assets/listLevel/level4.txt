@@ -1,0 +1,25 @@
+size w22h16
+
+Is x0y1 x1y1 x14y9 x14y12 x6y5
+Baba x9y3
+BabaText x0y0
+Flag x5y13
+FlagText x13y12
+
+Rock x12y3 x12y5
+RockText x13y9
+
+You x0y2
+Stop x1y2
+Push x15y9
+Win x15y12
+Sink x6y6
+
+Wall x2y0 x2y1 x2y2 x2y3 x0y3 x1y3 x4y7 x4y8 x4y9 x4y10 x4y11 x4y12 x4y13 x4y14 x5y14 x6y14 x7y14 x8y14 x9y14 x10y14 x11y14 x12y14 x13y14 x14y14 x15y14 x16y14 x16y7 x17y14 x17y13 x17y12 x17y11 x17y10 x17y9 x17y8 x17y7 x15y7 x14y7 x13y7 x12y7 x11y7 x11y8 x11y9 x11y10 x11y12 x11y13 x14y1 x14y2 x14y3 x14y4 x14y5 x14y6 x13y1 x12y1 x11y1 x10y1 x9y1 x8y1 x7y1 x7y2 x7y3 x7y4 x7y5 x7y6 x7y7 x6y7 x5y7 x4y7
+WallText x1y0
+
+Water x8y7 x9y7 x10y7 x6y13 x7y13 x5y11 x5y12 x6y12 x6y11 x7y12 x7y11
+WaterText x6y4
+
+
+
