@@ -8,7 +8,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
-doc/dev.pdf
+docs/dev.pdf
 
 # Generated files
 .idea/**/contentModel.xml
