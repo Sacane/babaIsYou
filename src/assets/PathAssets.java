@@ -1,8 +1,8 @@
 package assets;
-import data.Material;
-import data.Noun;
-import data.Property;
-import deplacement.Direction;
+import Data.Material;
+import Data.Noun;
+import Data.Property;
+import Deplacement.Direction;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
